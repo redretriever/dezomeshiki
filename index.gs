@@ -53,7 +53,7 @@ function getSearchResult() {
     var query = PropertiesService.getScriptProperties().getProperty("QUERY");
 
     // 最大取得回数（API実行回数）
-    var maxGetCount = 5;
+    var maxGetCount = 10;
 
     // 対象日付範囲（当日から2週間前まで）
     var today = new Date();
